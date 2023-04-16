@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: beige;
+}
+.hd-left img{
+    width: 80px;
+    height: 50px;
+}
+.hd-right .menu li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 24px;
+}
+.menu .menu-item {
+    line-height: 60px;
+    text-decoration: none;
+}
+.menu .btn-menu-item{
+    padding: 12px 14px;
+    background-color: rgba(255, 174, 0, 0.989);
+    color: white;
+    font-size: 12px;
+    border-radius: 20px;
+    border: none;
+}
