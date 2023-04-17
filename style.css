@@ -120,3 +120,38 @@ body {
   border: none;
 
 }
+.layout-offer {
+  text-align: center;
+}
+.layout-offer h2{
+  margin-top: 24px;
+}
+/* .layout-offer-list{
+  margin-top: 24px;
+} */
+.layout-offer-item{
+  padding: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+.layout-offer .offer-img img{
+  width: 130px;
+  height: 120px;
+  border-radius: 50%;
+  
+}
+
+.layout-offer i{
+  font-size: 24px;
+  padding: 12px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.offer-title p{
+  margin-top: 24px;
+}
