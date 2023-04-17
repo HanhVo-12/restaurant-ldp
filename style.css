@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: beige;
+    background-color: white;
     position: fixed;
     z-index: 99;
 }
@@ -39,17 +39,19 @@ body {
 }
 #container .layout-bg{
     width: 100%;
-    height: 750px;
+    height: 650px;
+    position: relative;
+    /* padding-top: 50%; */
     padding-top: 60px;
     background-size: cover;
     background-position: center center;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
-    background-image: url('https://mobirise.com/extensions/restaurantm4/assets/images/3.jpg');
+    background-image: url('https://immerse.com.au/wp-content/uploads/2018/06/Immerse-Food-Wine-Celler-Door-Immerse-Food-Wine-Celler-Door-0002.jpg');
 }
 
 .blur {
-  background: url("https://mobirise.com/extensions/restaurantm4/assets/images/3.jpg") 
+  background: url('https://immerse.com.au/wp-content/uploads/2018/06/Immerse-Food-Wine-Celler-Door-Immerse-Food-Wine-Celler-Door-0002.jpg') 
     no-repeat center center;
     /* background-color: rgba(255, 255, 255, 0.349); */
   background-size: cover;
@@ -83,18 +85,19 @@ body {
 /*  NOT REQUIRED  */
 
 .text {
-  height: 200px;
+  height: 180px;
   width: 340px;
+  margin: auto auto;
 }
 
 .text h1 {
   text-align: center;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
   color: #ffffff;
-  margin-top: 57px;
+  margin-top: 17px;
   font-family: "Lora", serif;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 34px;
 }
 
 .text p {
@@ -104,5 +107,16 @@ body {
   margin-top: 0px;
   font-family: "Lato", serif;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 24px;
+}
+.text button{
+  display: block;
+  margin: 12px auto;
+  padding: 12px 14px;
+  background-color: rgba(255, 174, 0, 0.989);
+  color: white;
+  font-size: 12px;
+  border-radius: 20px;
+  border: none;
+
 }
