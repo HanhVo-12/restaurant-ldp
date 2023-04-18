@@ -8,7 +8,7 @@ body {
 }
 #header{
     width: 100%;
-    height: 60px;
+    height: 70px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,8 +17,8 @@ body {
     z-index: 99;
 }
 .hd-left img{
-    width: 100px;
-    height: 60px;
+    width: 100%;
+    height: 70px;
 }
 .hd-right .menu li{
     list-style: none;
@@ -26,7 +26,7 @@ body {
     margin-left: 24px;
 }
 .menu .menu-item {
-    line-height: 60px;
+    line-height: 70px;
     text-decoration: none;
 }
 .menu .btn-menu-item{
@@ -85,7 +85,7 @@ body {
 /*  NOT REQUIRED  */
 
 .text {
-  height: 180px;
+  height: 155px;
   width: 340px;
   margin: auto auto;
 }
@@ -126,32 +126,118 @@ body {
 .layout-offer h2{
   margin-top: 24px;
 }
-/* .layout-offer-list{
-  margin-top: 24px;
-} */
+.layout-offer-list{
+  margin: 0 auto;
+  width: 90%;
+}
 .layout-offer-item{
+
   padding: 24px;
   display: inline-block;
   position: relative;
 }
 
 .layout-offer .offer-img img{
-  width: 130px;
-  height: 120px;
+  width: 230px;
+  height: 220px;
   border-radius: 50%;
+  border: 2px solid #cfcfcf;
   
 }
 
 .layout-offer i{
-  font-size: 24px;
-  padding: 12px;
+  font-size: 46px;
+  padding: 12px ;
   background-color: white;
   border-radius: 50%;
   position: absolute;
-  top: 60%;
+  top: 65%;
   left: 50%;
   transform: translateX(-50%);
 }
 .offer-title p{
   margin-top: 24px;
+}
+
+.layout-about{
+  margin: 0 auto;
+  display: flex;
+  width: 80%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.layout-about-item{
+  margin-inline: 24px;
+  /* flex: 1; */
+}
+.about-layout-text{
+  line-height: 36px;
+  flex: 2;
+}
+.about-layout-image{
+   flex: 1;
+}
+.layout-about .title-about{
+  color: rgba(255, 174, 0, 0.989);
+}
+.layout-about .btn-book{
+  background-color: rgba(255, 174, 0, 0.989);
+  border: none;
+  border-radius: 20px;
+  padding: 12px 14px;
+  color: white;
+  font-size: 12px;
+  
+}
+.layout-about .btn-continute{
+  border: none;
+  background-color: transparent;
+   font-size: 12px;
+   padding: 12px 14px;
+}
+.layout-about .about-img{
+  width: 350px;
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  background-image: url('https://danviet.mediacdn.vn/296231569849192448/2022/3/4/g1-16462996251361955713708-1646360380803-1646360381541149585755.jpg');
+}
+.about-widget {
+  position: relative;
+}
+.radius-about{
+  border: 2px solid white;
+  position: absolute;
+   top: 0;
+   left: 50%;
+   overflow: hidden;
+   transform: translate(-50%, 8%);
+   width: 80%;
+  height: 300px;
+  border-radius: 50%;
+}
+.about-blur{
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translate(-50%, 8%);
+   filter: blur(8px);
+   overflow: hidden;
+   background-size: cover;
+   background-position: center center;
+    background-image: url('https://danviet.mediacdn.vn/296231569849192448/2022/3/4/g1-16462996251361955713708-1646360380803-1646360381541149585755.jpg');
+  width: 80%;
+  height: 300px;
+  border-radius: 50%;
+    
+}
+.about-widget h2 {
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  color: white;
+  text-align: center;
 }
