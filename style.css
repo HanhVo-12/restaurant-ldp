@@ -146,8 +146,8 @@ body {
 }
 
 .layout-offer i{
-  font-size: 46px;
-  padding: 12px ;
+  font-size: 32px;
+  padding: 20px ;
   background-color: white;
   border-radius: 50%;
   position: absolute;
@@ -240,4 +240,50 @@ body {
   transform: translate(-50%, 50%);
   color: white;
   text-align: center;
+}
+
+.layout-testimonial-list{
+  width: 80%;
+  margin: 24px auto;
+  line-height: 28px;
+}
+.layout-testimonial-list h2{
+  text-align: center;
+}
+.layout-testimonial-item{
+  display: flex;
+  align-items: center;
+}
+.testimonial-item{
+  margin-inline: 8px ;
+}
+.circle{
+  padding: 32px;
+  border: 1px solid #cfcfcf;
+  border-radius: 50%;
+  width: 380px;
+  height: 200px;
+  position: relative;
+}
+
+.layout-testimonial-image{
+  background-image: url('https://www.washingtonian.com/wp-content/uploads/2022/12/Screen-Shot-2022-12-22-at-9.46.42-AM.png');
+  width: 90%;
+  height: 180px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center center;
+  margin: auto auto;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  border: 2px solid rgba(255, 174, 0, 0.989);
+}
+
+
+.icon-star{
+  color: yellow;
+}
+.layout-testimonial-slider{
+  
 }
