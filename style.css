@@ -25,11 +25,13 @@ body {
     list-style: none;
     display: inline-block;
     margin-left: 24px;
+     position: relative;
 }
 .menu .menu-item {
     line-height: 70px;
     text-decoration: none;
 }
+
 .menu .btn-menu-item{
     padding: 12px 14px;
     background-color: rgba(255, 174, 0, 0.989);
@@ -38,8 +40,24 @@ body {
     border-radius: 20px;
     border: none;
 }
-.menu li:hover{
-  background-color: brown;
+.menu li:nth-child(4){
+  margin-right: 16px;
+}
+.menu li::after{
+    margin-inline: auto;
+    content: '';
+    width: 0;
+    height: 8px;
+    background-color: #333;
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+    font-size: 16px;
+    transition: width 0.8s, background-color 0.8s;
+}
+.menu li:hover::after{
+    width: 100%;
+    background-color: rgba(255, 174, 0, 0.989);
 }
 #container .layout-bg{
     width: 100%;
