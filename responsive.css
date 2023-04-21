@@ -52,7 +52,7 @@
     #fa-close{
         display: none;
         text-align: right;
-        margin-top: 12px;
+        margin-top: 24px;
     }
    
     .hd-right .menu li{
@@ -120,7 +120,7 @@
     #fa-close{
         display: none;
         text-align: right;
-        margin-block: 12px;
+        margin-top: 24px;
     }
    
     .hd-right .menu li{

@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    height: auto;
+    /* height: auto; */
 }
 #header{
     width: 100%;
@@ -370,7 +370,7 @@ img.img-6{
     max-height: 100%;
     border: solid 5px rgba(255, 174, 0, 0.989);
     background-color: white;
-    border-color: rgba(255, 174, 0, 0.989) transparent transparent transparent;
+    /* border-color: rgba(255, 174, 0, 0.989) transparent transparent transparent; */
     border-radius: 100% 100% 0 0;
     border-left-color: rgba(255, 174, 0, 0.989);
     border-right-color: rgba(255, 174, 0, 0.989);
@@ -389,7 +389,7 @@ img.img-6{
     max-height: 100%;
     border: solid 5px white;
     background-color: black;
-    border-color: white transparent transparent transparent;
+    /* border-color: white transparent transparent transparent; */
     border-radius: 100% 100% 0 0;
     border-left-color: white;
     border-right-color: white;
@@ -439,5 +439,5 @@ img.ft-logo {
   width: 100%;
   color: white;
   text-align: center;
-  margin-top: 18px;
+  margin-block: 12px;
 }

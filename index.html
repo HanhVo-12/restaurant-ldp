@@ -18,8 +18,8 @@
                     <img src="assets/logoprimary-removebg.png" alt="">
                 </div>
                 <div class="hd hd-right">
+                    <i id="fa-close" class="fa-solid fa-xmark"></i>
                     <ul id="menu" class="menu">
-                        <i id="fa-close" class="fa-solid fa-xmark"></i>
                         <li><a href="" class="menu-item">Home</a></li>
                         <li><a href="" class="menu-item">About</a></li>
                         <li><a href="" class="menu-item">Categories</a></li>
@@ -205,6 +205,7 @@
          btnClose.onclick = () =>{
             document.querySelector(".menu").style.display = "none";
             mobileMenu.style.display = "block";
+            btnClose.style.display = "none"
              header.style.height = null;
          }
 
