@@ -132,6 +132,9 @@
     .hd-right .menu-mobile{
         display: inline-block;
     }
+    .menu .btn-menu-item{
+        width: 100%;
+    }
      .text{
         width: auto;
         margin-inline: 12px;
