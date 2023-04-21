@@ -44,7 +44,7 @@ body {
     border: none;
 }
 .menu li:nth-child(4){
-  margin-right: 16px;
+  margin-right: 26px;
 }
 .menu li::after{
     margin-inline: auto;
