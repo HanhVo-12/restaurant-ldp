@@ -18,13 +18,18 @@
                     <img src="assets/logoprimary-removebg.png" alt="">
                 </div>
                 <div class="hd hd-right">
-                    <ul class="menu">
+                    <ul id="menu" class="menu">
+                        <i id="fa-close" class="fa-solid fa-xmark"></i>
                         <li><a href="" class="menu-item">Home</a></li>
                         <li><a href="" class="menu-item">About</a></li>
                         <li><a href="" class="menu-item">Categories</a></li>
                         <li><a href="" class="menu-item">Private Chef</a></li>
                         <button class="btn-menu-item">BOOK NOW</button>
                     </ul>
+                    <div id="menu-mobile" class="menu-mobile">
+                        <i class="fa-bars fa-solid fa-bars"></i>
+                        
+                    </div>
                 </div>
             </header>
             <section id="container">
@@ -180,5 +185,23 @@
                 
             </footer>
         </div>
+        <script>
+         let header = document.getElementById("header");
+         let mobileMenu = document.getElementById("menu-mobile");
+         let currentHeight = header.clientHeight;
+         mobileMenu.onclick = () =>{
+             var isClosed = header.clientHeight === currentHeight;
+                if( isClosed) {
+                    document.querySelector(".menu").style.display = "block";
+                    document.querySelector("#fa-close").style.display = "block";
+                   header.style.height = "auto";
+                   document.querySelector(".hd-right .menu-mobile").style.display = "none"
+                    
+                } else {
+                    header.style.height = null;
+                }
+         }
+
+        </script>
     </body>
 </html>

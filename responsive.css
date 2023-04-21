@@ -1,10 +1,18 @@
 @media (min-width: 1024px){
-
+.hd-right .menu-mobile{
+  display: none;
+}
 }
 @media (min-width: 850px) and (max-width:1023px) {
+    .hd-right .menu-mobile{
+  display: none;
+}
 
 }
 @media (min-width: 650px) and (max-width:849px) {
+    .hd-right .menu-mobile{
+  display: none;
+}
     .text h1{
         font-size: 24px;
     }
@@ -27,6 +35,23 @@
     }
 }
 @media (min-width:450px) and (max-width:649px) {
+   
+    .menu{
+        display: none;
+    }
+    #fa-close{
+        display: none;
+    }
+   
+    .hd-right .menu li{
+        display: block;
+    }
+    .hd-right button{
+        margin-block: 20px;
+    }
+    .hd-right .menu-mobile{
+        display: inline-block;
+    }
     .text{
         width: auto;
         margin-inline: 12px;
@@ -77,6 +102,9 @@
     }
 }
 @media (max-width:449px){
+     .hd-right .menu-mobile{
+        display: inline-block;
+     }
      .text{
         width: auto;
         margin-inline: 12px;
