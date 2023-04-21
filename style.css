@@ -23,6 +23,16 @@ body {
     height: 80px;
 }
 
+
+ .hd-right .menu-mobile{
+        display: none ;
+    }
+    #fa-close{
+        display: none ;
+    }
+
+
+
 .hd-right .menu li{
     list-style: none;
     display: inline-block;

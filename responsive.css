@@ -1,28 +1,28 @@
 @media (min-width: 1024px){
-    .hd-right .menu-mobile{
+    /* .hd-right .menu-mobile{
         display: none;
     }
     #fa-close{
         display: none;
-    }
+    } */
 
 }
 @media (min-width: 850px) and (max-width:1023px) {
-    .hd-right .menu-mobile{
+    /* .hd-right .menu-mobile{
         display: none;
     }
     #fa-close{
         display: none;
-    }
+    } */
 
 }
 @media (min-width: 650px) and (max-width:849px) {
-    .hd-right .menu-mobile{
-        display: none;
+    /* .hd-right .menu-mobile{
+        display: none !important;
     }
     #fa-close{
-        display: none;
-    }
+        display: none !important;
+    } */
     .text h1{
         font-size: 24px;
     }
