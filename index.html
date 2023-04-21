@@ -21,14 +21,13 @@
                     <i id="fa-close" class="fa-solid fa-xmark"></i>
                     <ul id="menu" class="menu">
                         <li><a href="" class="menu-item">Home</a></li>
-                        <li><a href="" class="menu-item">About</a></li>
-                        <li><a href="" class="menu-item">Categories</a></li>
-                        <li><a href="" class="menu-item">Private Chef</a></li>
+                        <li><a href="#about" class="menu-item">About</a></li>
+                        <li><a href="#offer" class="menu-item">Categories</a></li>
+                        <li><a href="#testimonial" class="menu-item">Private Chef</a></li>
                         <button class="btn-menu-item">BOOK NOW</button>
                     </ul>
                     <div id="menu-mobile" class="menu-mobile">
                         <i class="fa-bars fa-solid fa-bars"></i>
-                        
                     </div>
                 </div>
             </header>
@@ -43,7 +42,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="layout-offer">
+                <div id="offer" class="layout-offer">
                     <h2>What we offer</h2>
                     <div class="layout-offer-list">
                         <div class="layout-offer-item">
@@ -87,7 +86,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="layout-about">
+                <div id="about" class="layout-about">
                     <div class="layout-about-item about-layout-text">
                         <h3 class="title-about">ABOUT US</h3>
                         <h2>TIMIAMI TRAIL FOOD RESTAURANTS</h2>
@@ -107,7 +106,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="layout-testimonial">
+                <div id="testimonial" class="layout-testimonial">
                     
                     <div class="layout-testimonial-list">
                         <h2>TESTIMONIAL</h2>
@@ -198,6 +197,9 @@
                    document.querySelector(".hd-right .menu-mobile").style.display = "none"
                     
                 } else {
+                   document.querySelector(".menu").style.display = "none";
+                    mobileMenu.style.display = "block";
+                    btnClose.style.display = "none"
                     header.style.height = null;
                 }
          }

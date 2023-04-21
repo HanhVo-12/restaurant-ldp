@@ -201,6 +201,9 @@
     img.img-4, img.img-5, img.img-6{
         width: 90%;
     }
+    #footer{
+        margin-top: 24px;
+    }
 
     .ft-item:nth-child(2){
         border: none;
