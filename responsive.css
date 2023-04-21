@@ -1,7 +1,6 @@
 @media (min-width: 1024px){
     .hd-right .menu-mobile{
-    display: none;
-    
+        display: none;
     }
     #fa-close{
         display: none;
@@ -19,6 +18,9 @@
 }
 @media (min-width: 650px) and (max-width:849px) {
     .hd-right .menu-mobile{
+        display: none;
+    }
+    #fa-close{
         display: none;
     }
     .text h1{
@@ -49,6 +51,8 @@
     }
     #fa-close{
         display: none;
+        text-align: right;
+        margin-top: 12px;
     }
    
     .hd-right .menu li{

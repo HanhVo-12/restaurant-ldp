@@ -19,14 +19,14 @@ body {
     overflow: hidden;
 }
 .hd-left img{
-    width: 100%;
+    width: 100px;
     height: 80px;
 }
 
 .hd-right .menu li{
     list-style: none;
     display: inline-block;
-    margin-left: 24px;
+    margin-right: 24px;
      position: relative;
 }
 .menu .menu-item {
